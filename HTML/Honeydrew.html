@@ -9,61 +9,99 @@
     <title>HONEYDREW</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <link rel="stylesheet" href="/Users/Agui2393/Desktop/HoneyDrew Poject/CSS/Honeydrew.css">
 
 
 </head>
 <body>
- <div>
-<img src="/Users/Agui2393/Desktop/HoneyDrew Poject/Img/honeydrew-high-resolution-logo-grayscale.png" alt="Honeydrew logo black" width="300px" height="200px">
 
+ <div>
+  <a aria-current="page" href="#Home"><img src="/Users/Agui2393/Desktop/HoneyDrew Poject/Img/honeydrew-high-resolution-logo-grayscale.png" alt="Honeydrew logo black" width="300px" height="200px"></a>
  </div>
 
 
- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+<nav class="navbar navbar-expand-lg text-bg-dark p-3">
   <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
 
-      <ul class="navbar-nav">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link text-light" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Product</a>
+          <a class="nav-link text-light" href="#">Products</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Trending</a>
+          <a class="nav-link text-light" href="#">Trends</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">About Us</a>
+          <a class="nav-link text-light" href="#">About Us</a>
         </li>
       </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light searchbutton" type="submit">Search</button>
+      </form>
+
     </div>
   </div>
 </nav>
 
 
 
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-<footer>
-  <div class="footercontent">
-    <p>&copy; 2024 HONEYDREW. All rights reserved.</p>
-    <ul class="socialmedia">
-        <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
-        <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
-        <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
-    </ul>
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../Img/honeydrew-high-resolution-logo-transparent.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../Img/pexels-cottonbro-4738009.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../Img/pexels-elchino-portrait-774941174-25190053.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
+<br>
+
+
+
+
+
+<footer class="footercontent">
+  
+<div class="flex-footer">
+  <span>Find us on:</span>
+
+  <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
+  <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
+  <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
+</div>
+
+<br>
+
+  <p class="copyright">&copy; 2024 HONEYDREW. All rights reserved.</p>
+
 </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 
 </body>
 </html>

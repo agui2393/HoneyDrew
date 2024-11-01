@@ -1,12 +1,49 @@
 
-footer{
-     background-color: black;
+
+
+.nav-item a:hover {
+    background-color: #555; 
+    border-radius: 4px;
+}
+
+.searchbutton a:hover{
+    background-color:#555; 
+}
+
+
+
+
+
+
+footer {
+	background-color: #090909;
     color: white;
-    text-align: center;
-    padding: 20px 0;
+	padding: 1em;
+	text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	z-index: 3;
+}
+
+
+footer > a {
+	color: white;
+}
+
+.flex-footer{
+    display: flex;
+    text-decoration: none;
+	padding: 0 15px;
+	font-size: 0.8rem;
+}
+
+footer > a:hover{
+        text-decoration: none;
+        color: #555;
 }
 
 .footercontent {
-    max-width: 1200px;
-    margin: 0 auto;
+    text-transform: uppercase;
 }
