@@ -41,7 +41,7 @@ footer {
 	font-size: 0.8rem;
 }
 
-footer > a:hover{
+.flex-footer > a:hover{
         text-decoration: none;
         color: #555;
 }
