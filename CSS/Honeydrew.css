@@ -28,7 +28,7 @@ footer {
 }
 
 
-footer > a {
+.flex-footer > a {
 	color: white;
 }
 
