@@ -52,3 +52,34 @@ footer {
 .backgroundtrends{
     background-color: #090909;
 }
+
+
+
+
+
+
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 200px; 
+    background-image: url('../Img/security-79397_1280.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter {
+    color: white;
+    font-size: 2rem;
+    text-align: center;}
