@@ -21,7 +21,7 @@ footer {
 	padding: 1em;
 	text-align: center;
     width: 100%;
-    position: fixed;
+    
     bottom: 0;
     right: 0;
 	z-index: 3;
@@ -48,4 +48,7 @@ footer {
 
 .footercontent {
     text-transform: uppercase;
+}
+.backgroundtrends{
+    background-color: #090909;
 }

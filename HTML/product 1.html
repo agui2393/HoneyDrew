@@ -22,7 +22,7 @@
 
 
 
- <nav class="navbar navbar-expand-lg text-bg-dark p-3">
+<nav class="navbar navbar-expand-lg text-bg-dark p-3">
   <div class="container-fluid">
    
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,16 +32,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link text-light" aria-current="page" href="../HTML/index.html">Home</a>
+          <a class="nav-link text-light" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="../HTML/products.html">Products</a>
+          <a class="nav-link text-light" href="#">Products</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="../HTML/trends.html">Trends</a>
+          <a class="nav-link text-light" href="#">Trends</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="../HTML/aboutus.html">About Us</a>
+          <a class="nav-link text-light" href="#">About Us</a>
         </li>
       </ul>
 
@@ -56,28 +56,88 @@
 
 
 
-<div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="../Img/honeydrew-high-resolution-logo-transparent.png" class="d-block w-100" alt="Big Logo Honeydrew">
+
+<form action="https://formdump.codeinstitute.net" method="POST">
+
+  <fieldset>
+    <legend>Your details</legend>
+        <div class="flex gap-20">
+            <div>
+          <label for="name-field" class="block-label">First Name</label>
+          <input id="name-field" type="text" name="f_name" placeholder="First name" required>
+        </div>
+
+        <div>
+          <label for="name-field" class="block-label">Second Name</label>
+          <input id="name-field" type="text" name="S_name" placeholder="Second name" required>
+        </div>
+
+        <div>
+          <label for="email-field" class="block-label">Email</label>
+          <input id="email-field" type="email" name="email" placeholder="Your email" required>
+        </div>
+       
+  </fieldset>
+
+  <fieldset>
+    <legend>Your delivery details</legend>
+    <div>
+      <label for="address-field" class="block-label">Street</label>
+      <input id="address-field" type="text" name="street" placeholder="Street" required>
     </div>
-    <div class="carousel-item">
-      <img src="../Img/pexels-cottonbro-4738009.jpg" class="d-block w-100" alt="Picture of woman posing on street with pants black and white">
+    <div>
+      <label for="address-field" class="block-label">City</label>
+      <input id="address-field" type="text" name="city" placeholder="City" required>
     </div>
-    <div class="carousel-item">
-      <img src="../Img/pexels-elchino-portrait-774941174-25190053.jpg" class="d-block w-100" alt="Men posing on the stairs with long sleeve t-shirt">
+    <div>
+      <label for="address-field" class="block-label">City</label>
+      <input id="address-field" type="text" name="country" placeholder="Country" required>
     </div>
+    <div>
+      <label for="address-field" class="block-label">Postcode</label>
+      <input id="address-field" type="text" name="postcode" placeholder="Postcode" required>
+    </div>
+
+  </fieldset>
+
+
+<fieldset>
+  <div>
+    <label for="fav-coffee" class="block-label">Which product are interested to buy?</label>
+    <input id="fav-coffee" list="coffees" name="fav-coffee" required>
+    <datalist id="coffees">
+      <option value="Black Backpack">
+      <option value="Cap">
+      <option value="Dress">
+      <option value="Trousers">
+      <option value="Tshirt">
+    </datalist>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-<br>
+
+
+
+<fieldset>
+  <legend>You message:</legend>
+  <label for="feedback" class="block-label">Please leave us a message</label>
+  <br>
+  <textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
+</fieldset>
+
+
+       
+    </div>
+
+<input type="submit" class="block-label" value="Send request">
+<input type="reset" value="Reset Form">
+
+</form>
+
+</body>
+
+</html>
+
+
+
 
 
 
