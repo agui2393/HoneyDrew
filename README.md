@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![HD logo](../Img/honeydrew-high-resolution-logo-grayscale-transparent.png)
 
 Welcome USER_NAME,
 
