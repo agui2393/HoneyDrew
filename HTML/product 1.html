@@ -15,7 +15,7 @@
 
 </head>
 <body>
-
+<header>
  <div>
   <a aria-current="page" href="#Home"><img src="../Img/honeydrew-high-resolution-logo-grayscale.png" alt="Honeydrew logo black" width="300px" height="200px"></a>
  </div>
@@ -57,27 +57,27 @@
   </div>
 </nav>
 
+</header>
+<main>
 
-
-
-<form action="https://formdump.codeinstitute.net" method="POST">
+<form action="https://honeydrew.com" method="POST">
 
   <fieldset>
     <legend>Your details</legend>
         <div class="flex gap-20">
             <div>
           <label for="name-field" class="block-label">First Name</label>
-          <input id="name-field" type="text" name="f_name" placeholder="First name" required>
+          <input id="name-field" type="text" name="f_name" placeholder="John" required>
         </div>
 
         <div>
           <label for="name-field" class="block-label">Second Name</label>
-          <input id="name-field" type="text" name="S_name" placeholder="Second name" required>
+          <input id="name-field" type="text" name="S_name" placeholder="Lloyd" required>
         </div>
 
         <div>
           <label for="email-field" class="block-label">Email</label>
-          <input id="email-field" type="email" name="email" placeholder="Your email" required>
+          <input id="email-field" type="email" name="email" placeholder="JohnLloyd@hotmail.com" required>
         </div>
        
   </fieldset>
@@ -106,8 +106,8 @@
 
 <fieldset>
   <div>
-    <label for="fav-coffee" class="block-label">Which product are interested to buy?</label>
-    <input id="fav-coffee" list="coffees" name="fav-coffee" required>
+    <label for="Selected-item" class="block-label">Which product are interested to buy?</label>
+    <input id="Selected-item" list="Items" name="fSelected-items" required>
     <datalist id="coffees">
       <option value="Black Backpack">
       <option value="Cap">
@@ -121,9 +121,9 @@
 
 <fieldset>
   <legend>You message:</legend>
-  <label for="feedback" class="block-label">Please leave us a message</label>
+  <label for="message" class="block-label">Please leave us a message</label>
   <br>
-  <textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
+  <textarea id="fmessage" rows="4" cols="87" name="message"></textarea>
 </fieldset>
 
 
@@ -135,14 +135,7 @@
 
 </form>
 
-</body>
-
-</html>
-
-
-
-
-
+</main>
 
 
 
