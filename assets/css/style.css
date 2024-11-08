@@ -1,0 +1,193 @@
+
+
+/* ----- << Global Settings >> -----*/
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1.0rem;
+    line-height: 1.4;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+   
+}
+
+main{
+    flex: 1 0 auto;
+}
+
+/*----- << Home Page Styling >>----- */
+
+.carousel-item{
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+}
+
+
+
+
+/* Header Styling */
+
+header {
+    background: var(--clr-primary-900);
+    text-align: center;
+    position:static;
+    width: 100%;
+    z-index: 999;
+    letter-spacing: 0.1rem;}
+
+
+
+
+
+
+/* Navigation Styling */
+
+.nav-item a:hover {
+    background-color: #555; 
+    border-radius: 4px;
+}
+
+.searchbutton a:hover{
+    background-color:#555; 
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    z-index: 10000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+/* News letter Styling */
+
+
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 200px; 
+    background-image: url('../images/security-79397_1280.jpg');
+    background-size: cover; 
+    background-position: center; 
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter {
+    color: white;
+    font-size: 2rem;
+    text-align: center;}
+
+
+
+
+/* Footer Styling */
+
+footer {
+	background-color: #090909;
+    color: white;
+	padding: 1em;
+	text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    right: 0;
+	z-index: 3;
+}
+
+
+.flex-footer > a {
+	color: white;
+}
+
+.flex-footer{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+	padding: 0 15px;
+	font-size: 0.8rem;
+}
+
+.flex-footer > a:hover{
+        text-decoration: none;
+        color: #555;
+}
+
+.footercontent {
+    text-transform: uppercase;
+}
+
+
+
+/*----- << Trends Page Styling >>----- */
+
+.backgroundtrends{
+    background-color: #090909;
+    width: 100%;
+    height: 100%;
+}
+
+#trends{
+
+}
+
+/*----- << Contact Page Styling >>----- */
+
+
+
+
+
+/*----- << About us Page Styling >>----- */
+
+#map-wrapper{
+    position: fixed;
+    top: 120px;
+    right: 0px;
+    width: 100%;
+
+    z-index: 4;
+    
+}
+
+.shop-info{
+    text-align: center;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop-times{
+ width: 100%;
+ margin-left: 20px;
+ border: 2px solid black;
+}
+
+.shop-times th, .shop-times td{
+    border: 2px solid #2d2c2c;
+    padding: 8px;
+    text-align: center;
+}
