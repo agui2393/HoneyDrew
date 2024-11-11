@@ -67,49 +67,46 @@
 
 
 
-<main>
+<main class="preorder-background">
 
 <form action="thankyou_preorder.html" method="POST">
 
-  <fieldset class="personal-details flex gap-20">
+  <fieldset class="personal-details">
     <legend>Personal Details</legend>
         <div class="flex gap-20">
-            <div>
-          <label for="name-field" class="block-label">First Name</label>
-          <input id="name-field" type="text" name="f_name" placeholder="John" required>
-        </div>
+          <div>
+           <label for="name-field" class="block-label">First Name</label>
+           <input id="name-field" type="text" name="f_name" placeholder="John" required>
+          </div>
 
-        <div>
+         <div>
           <label for="name-field" class="block-label">Second Name</label>
           <input id="name-field" type="text" name="S_name" placeholder="Lloyd" required>
-        </div>
+         </div>
 
-        <div>
+         <div>
           <label for="email-field" class="block-label">Email</label>
-          <input id="email-field" type="email" name="email" placeholder="JohnLloyd@hotmail.com" required>
+          <input id="email-field" type="email" name="email" placeholder="JLloyd@hotmail.com" required>
+         </div>
         </div>
-       
   </fieldset>
 
-  <fieldset class="personal-details flex gap-20">
+  <fieldset class="personal-details">
     <legend>Your delivery details</legend>
-    <div>
-      <label for="address-field" class="block-label">Street</label>
-      <input id="address-field" type="text" name="street" placeholder="Street" required>
-    </div>
-    <div>
-      <label for="address-field" class="block-label">City</label>
-      <input id="address-field" type="text" name="city" placeholder="City" required>
-    </div>
-    <div>
+    <div class="flex gap-20">
+      <div>
+      <label for="address-field" class="block-label">Address</label>
+      <input id="address-field" type="text" name="street" placeholder="2 Steward Street" required>
+      </div>
+      <div>
+        <label for="address-field" class="block-label">Postcode</label>
+        <input id="address-field" type="text" name="postcode" placeholder="L23 3SD" required>
+      </div>
+      <div>
       <label for="address-field" class="block-label">Country</label>
-      <input id="address-field" type="text" name="country" placeholder="Country" required>
+      <input id="address-field" type="text" name="city" placeholder="United Kingdom" required>
+      </div>
     </div>
-    <div>
-      <label for="address-field" class="block-label">Postcode</label>
-      <input id="address-field" type="text" name="postcode" placeholder="Postcode" required>
-    </div>
-
   </fieldset>
 
 
@@ -129,19 +126,15 @@
 
 
 <fieldset class="personal-details">
-  <legend>You message:</legend>
-  <label for="message" class="block-label">Please leave us a message</label>
+  <legend>Your message:</legend>
+  <label for="message" class="block-label"></label>
   <br>
-  <textarea id="fmessage" rows="4" cols="87" name="message"></textarea>
-</fieldset>
+  <textarea id="fmessage" placeholder="Please leave us a message" rows="4" cols="70" name="message"></textarea>
+</fieldset> 
 
 
-       
-    </div>
-
-<input type="submit" class="block-label" value="Send request" >
-<input type="reset" value="Reset Form">
-
+<input type="submit" class="block-label button-imput" value="Send request" >
+<input type="reset"  class="button-imput" value="Reset Form">
 </form>
 
 </main>
