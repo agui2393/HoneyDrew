@@ -68,6 +68,27 @@ nav{
     text-align: center;
 }
 
+.navbar-toggler{
+    border-radius: white;
+    border: 1px solid white;
+}
+
+
+span.burger-line {
+    width: 20px;
+    color: white;
+    border-bottom: 0.5px solid white;
+}
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    /* height: 50px; */
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 0px;
+}
 
 /* News letter Styling */
 
@@ -141,6 +162,31 @@ footer {
 
 
 
+/*----- << Products page styling >>----- */
+
+.title-underline{
+    border-bottom: 2px solid #000
+}
+
+.button-black{
+    background-color: #000;
+    border-color: transparent;
+}
+
+.button-black >a:hoover{
+    background-color: #555;
+    border-color: #555;
+}
+
+
+/*----- << Preorder Page Styling >>----- */
+
+.personal-details{
+   border: 2px solid #000; 
+  padding: 20px;
+  border-radius: 5px; 
+}
+
 /*----- << Trends Page Styling >>----- */
 
 .backgroundtrends{
@@ -190,4 +236,26 @@ footer {
     border: 2px solid #2d2c2c;
     padding: 8px;
     text-align: center;
+}
+
+
+/*----- << Response Page Styling >>----- */
+
+.response_text{
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.response_preorder{
+
+    height: 300px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
 }
