@@ -68,55 +68,52 @@
 </header>
 
 
+<main class="background-contact">
 
+  
+  <div class="text-white">  
+    <div>
+      <h3>Get in touch</h3>
+    </div>
+    <div>
+     <span>Phone:+34 958456118</span>
+    </div>
+    <div>
+     <span>Email: Honeydrew@hotmail.com</span>
+    </div>
+   </div>
+  
+    <form action="thankyou_contact.html" method="POST">
 
-
-<section id="contact">
-<div class="text-right contact-box last">
-  <h3>Get in touch</h3>
-
-  <div>
-  <span class="bold">Phone: </span>
-  <span>+34 958 456 118</span>
-  </div>
-  <div>
-  <span class="bold">Email: </span>
-  <span>Honeydrew@hotmail.com</span>
-  </div>
-</div>
-</section>
-
-<br>
-
-
-<form action="thankyou_contact.html" method="POST">
-
-  <fieldset>
-    <legend>Your details</legend>
-        <div class="flex gap-20">
+     <fieldset class="contact-box text-white2">
+     <legend>Your details</legend>
+        <div class="flex">
             <div>
-          <label for="name-field" class="block-label">Name</label>
-          <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+          <label for="name-field" class="block-label">Name:</label>
+          <input id="name-field" type="text" name="full_name" placeholder="John Lloyd" required>
         </div>
         <div>
-          <label for="email-field" class="block-label">Email</label>
-          <input id="email-field" type="email" name="email" placeholder="Your email" required>
+          <label for="email-field" class="block-label">Email:</label>
+          <input id="email-field" type="email" name="email" placeholder="Jlloyd@hotmail.com" required>
         </div>
 
-  </fieldset>
+     </fieldset>
 
-<fieldset>
-  <legend>Your message:</legend>
-  <label for="message" class="block-label"></label>
-  <br>
-  <textarea id="message" rows="4" cols="87" name="message" placeholder="How can we help you?"></textarea>
-</fieldset>
+     <fieldset class="contact-box text-white2">
+     <legend>Your message:</legend>
+     <label for="message" class="block-label"></label>
+     <br>
+     <textarea id="message" rows="8" cols="50" name="message" placeholder="How can we help you?"></textarea>
+     </fieldset>
    
-<input type="submit" class="block-label" value="Send your message" >  
+     <input type="submit" class="button-imput" value="Send your message" >  
 
-</form>
+    </form>
+    
 
-
+ 
+  
+</main>
 
 
 

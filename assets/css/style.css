@@ -192,9 +192,9 @@ footer {
     position: relative;
     width: 100%;
     height: 100%; 
-    background-image: url('../images/olives.jpg');
+    background-image: url('../images/women.jpg');
     background-size: cover; 
-    background-position: center; 
+    background-position: top left; 
 }
 
 .personal-details{
@@ -244,31 +244,50 @@ input[type=reset] {
 /*----- << Trends Page Styling >>----- */
 
 .backgroundtrends{
-    background-color: #090909;
+    background-color: #000;
     width: 100%;
     height: 100%;
 }
 
-#trends{
-
-}
 
 /*----- << Contact Page Styling >>----- */
 
+.background-contact{
+    position: relative;
+    width: 100%;
+    height: 100%; 
+    background-image: url('../images/contact.jpg');
+    background-size: cover; 
+    background-position: left; 
+}
 
+.contact-box{
+  border: 1px solid white; 
+  padding: 20px;
+  border-radius: 5px; 
+  color: white;
+}
 
+.text-white2{
+    color: white;
+    margin-left: 20px;
+    width: 50%;
+    margin-top: 20px;
+}
 
 
 /*----- << About us Page Styling >>----- */
 
-#map-wrapper{
-    position: fixed;
-    top: 120px;
-    right: 0px;
-    width: 100%;
+.text-white{
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
 
-    z-index: 4;
-    
+
+.picture-centre{
+    margin-top: 1%;
+    margin-right: 8%;
 }
 
 .shop-info{
@@ -290,6 +309,17 @@ input[type=reset] {
     border: 2px solid #2d2c2c;
     padding: 8px;
     text-align: center;
+}
+
+
+#map-wrapper{
+    position: fixed;
+    top: 120px;
+    margin-left: 20px;
+    right: 0px;
+    width: 100%;
+    z-index: 4;
+    
 }
 
 
