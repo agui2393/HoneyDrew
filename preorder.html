@@ -71,9 +71,9 @@
 
 <form action="thankyou_preorder.html" method="POST">
 
-  <fieldset class="personal-details">
+  <fieldset class="personal-details gap">
     <legend>Personal Details</legend>
-        <div class="flex gap-20">
+        <div class="flex gap-20 form-column">
           <div>
            <label for="name-field" class="block-label">First Name</label>
            <input id="name-field" type="text" name="f_name" placeholder="John" required>
@@ -91,9 +91,9 @@
         </div>
   </fieldset>
 
-  <fieldset class="personal-details">
+  <fieldset class="personal-details gap">
     <legend>Delivery details</legend>
-    <div class="flex gap-20">
+    <div class="flex gap-20 form-column">
       <div>
       <label for="address-field" class="block-label">Address</label>
       <input id="address-field" type="text" name="street" placeholder="2 Steward Street" required>
@@ -110,7 +110,7 @@
   </fieldset>
 
 
-<fieldset class="personal-details">
+<fieldset class="personal-details form-column gap">
   <div>
     <label for="Selected-item" class="block-label">Please, choose the product you'd like to purchase:</label>
     <select id="Selected-item" list="Items" name="Selected-items" required>
@@ -126,7 +126,7 @@
 </fieldset>
 
 
-<fieldset class="personal-details">
+<fieldset class="personal-details form-column gap">
   <legend>Your message:</legend>
   <label for="message" class="block-label"></label>
   <br>

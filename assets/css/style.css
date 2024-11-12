@@ -343,3 +343,64 @@ input[type=reset] {
     text-align: center;
     margin-top: 50px;
 }
+
+iframe{
+    width:90%
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+    #newsletter
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-item{
+        height: auto;
+    }
+
+    body{
+        min-height: auto;
+    }
+
+    main.backgroundtrends {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-holder{
+        flex-direction: column;
+    }
+
+    .shop-times{
+        width: auto;
+        margin: 0px;
+    }
+
+    .form-column{
+        flex-direction: column;
+    }
+
+    textarea{
+        width: 100%;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .responsive-center{
+        text-align: center;
+    }
+    .footercontent{
+        position: fixed;
+
+    }
+    .gap{
+        width: 100%;
+    }
+  }
