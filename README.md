@@ -6,11 +6,11 @@
 The Honeydrew website allows visitors to explore our latest clothing collections and learn more about our brand. You can browse through stylish outfits, get the latest updates on new arrivals, and easily make pre-orders online. Visitors can quickly get in touch with us for customer support, inquiries
 Check out our website at the following [link] (https://github.com/agui2393/HoneyDrew)
 ---
-### First Time Visitor Goals:
+# First Time Visitor Goals:
 * As a First Time Visitor, I want to quickly understand the main purpose of the site, so I can learn more about Honeydrew and what makes its clothing unique.
 * As a First Time Visitor, I want to easily navigate through the website, so I can find the clothing collections, pricing, and information about the brand.
 
-### Returning Visitor Goals:
+## Returning Visitor Goals:
 * As a Returning Visitor, I want to see new arrivals and seasonal collections, so I can stay updated on the latest fashion trends.
 * As a Returning Visitor, I want to find detailed product descriptions, so I can make informed purchase decisions.
 * As a Returning Visitor, I want an easy way to contact customer support, so I can get help with sizing, orders, or returns.
@@ -21,7 +21,7 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 ## Features
 
-+ ##### Navigation
++ # Navigation
     - Positioned at the top of the page.
     - Contains navigation links on the left side:
     * Home:
