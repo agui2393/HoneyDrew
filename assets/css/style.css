@@ -12,7 +12,6 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-   
 }
 
 main{
@@ -179,10 +178,10 @@ footer {
 }
 
 .space{
-     margin-top: 10px;
-     margin-right: 0px;
-     margin-bottom: 10px;
-     margin-left: 0px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
 }
 
 
@@ -198,10 +197,10 @@ footer {
 }
 
 .personal-details{
-   border: 1px solid white; 
-  padding: 20px;
-  border-radius: 5px; 
-  color: white;
+    border: 1px solid white; 
+    padding: 20px;
+    border-radius: 5px; 
+    color: white;
 }
 
 .gap-20 {
@@ -262,10 +261,10 @@ input[type=reset] {
 }
 
 .contact-box{
-  border: 1px solid white; 
-  padding: 20px;
-  border-radius: 5px; 
-  color: white;
+    border: 1px solid white; 
+    padding: 20px;
+    border-radius: 5px; 
+    color: white;
 }
 
 .text-white2{
