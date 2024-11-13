@@ -35,8 +35,16 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
     -- The navigation bar is responsive:
         * On tablets and phone: navigation bar is implemented in a hamburguer on the left side.
+
+
+
         ![NavBar hamburguer](documentation/navbar_hamburguer.png)
+
+
+
         * When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
+
+        
         ![NavBar Open](documentation/navbar_ipad.png)
     
     # Home Page
