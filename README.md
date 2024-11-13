@@ -3,7 +3,7 @@
 
 # *HONEYDREW*
 
-The Honeydrew website allows visitors to explore our latest clothing collections and learn more about our brand. You can browse through stylish outfits, get the latest updates on new arrivals, and easily make pre-orders online. Visitors can quickly get in touch with us for customer support, inquiries
+The Honeydrew website allows visitors to explore our latest clothing collections and learn more about our brand. You can browse through stylish outfits, stay updated on new arrivals, and easily make pre-orders online. Visitors can quickly get in touch with us for customer support, inquiries
 Check out our website at the following [link] (https://github.com/agui2393/HoneyDrew)
 ---
 ## First Time Visitor Goals:
@@ -36,7 +36,7 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
     - The navigation bar is responsive:
 
-    * On tablets and phone: navigation bar is implemented in a hamburguer on the left side.
+    * On tablets and phone: navigation bar turns into a hamburger menu.
 
 
 
@@ -83,7 +83,7 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 ## Products Page
     
-  - Product page has 6 cards with pictures of the items available to pre-order.
+  - The products page has 6 cards with pictures of the items available to pre-order.
   - Heach card has name of the item, description and price of the item. 
   - Invites people to create a pre-order with a simple click on the button at the bottom of each card.
   - Pre-order button leads you to a new page where you can pre-oder the item.
