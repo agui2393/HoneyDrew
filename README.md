@@ -1,4 +1,4 @@
-![HD logo](/assets/images/honeydrew-high-resolution-logo-grayscale-transparent.png)
+![HD logo](/assets/images/honeydrew-high-resolution-logo-grayscale.png)
 
 
 # *HONEYDREW*
@@ -24,12 +24,28 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 + # Navigation
     - Positioned at the top of the page.
     - Contains navigation links on the left side:
-    * Home:
-    * Products:
-    * Trends:
-    * Contact:
-    * About us:
+      * Home: leads to the home where users can see some images of the brand and can subscribe to the newsletter.
+      * Products: leads to the products page wher eusers can see all the products available to buy.
+      * Trends: leads to the trends page where users can see last trends in two of the most important magazines of the fashion industry.
+      * Contact: leads to the contact form page where users can fill out the form in order to get in touch with the company.
+      * About us: leads to the home page where users can learn about the company HONEYDREW.
     - The links have animated hover effect.
     - The navigation is clear and easy to understand for the user.
-    ![NavBar desktop]
+    ![NavBar desktop](documentation/navbar_bigscreen.png)
+
+    -- The navigation bar is responsive:
+        * On tablets and phone: navigation bar is implemented in a hamburguer on the left side.
+        ![NavBar hamburguer](documentation/navbar_hamburguer.png)
+        * When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
+        ![NavBar Open](documentation/navbar_ipad.png)
+    
+    # Home Page
+
+    - Represent: 
+      
+      * Showcase pictures of the company
+      * Invites people to join the newsletter to keep updated with last news.
+      * 
+
+
 
