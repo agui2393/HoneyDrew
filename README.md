@@ -21,7 +21,7 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 ## Features
 
-+ # Navigation
++ # Navigation bar
     - Positioned at the top of the page.
     - Contains navigation links on the left side:
       * Home: leads to the home where users can see some images of the brand and can subscribe to the newsletter.
@@ -34,7 +34,8 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
     ![NavBar desktop](documentation/navbar_bigscreen.png)
 
     - The navigation bar is responsive:
-        * On tablets and phone: navigation bar is implemented in a hamburguer on the left side.
+
+    * On tablets and phone: navigation bar is implemented in a hamburguer on the left side.
 
 
 
@@ -42,34 +43,78 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 
 
-        * When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
+    * When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
 
 
     ![NavBar Open](documentation/navbar_ipad.png)
+
+
++ # Footer
+
+    - Positioned at the bottom of the page contatins social media links in a new web.
+    - Links has been added to the different sections of the website to make easier for users to go back to the other sections without having to scroll back to the top of the website.
+    - Also copyright notice has been added into the footer area.
+
+    ![Footer](documentation/footer.png)
+
     
-    # Home Page
+
+## Website Pages
+
+
+# Home Page
 
     - Represent: 
       
-      * Showcase pictures of the company in a carrousel.
-      * Invites people to join the newsletter to keep updated with last news.
+   * Showcase pictures of the company in a carrousel.
+   * Invites people to join the newsletter to keep updated with last news.
+     
 
-    ![Home Page](documentation/homepage.png)
+   ![Home Page](documentation/homepage.png)
+
+   * The newsletter area contains and imput area to type your email.
+   * A "Subscribe" button has been added to submit your email  and will lead you to a new page with a "Thank you" message.
+
+   ![Newsletter](documentation/newsletter.png)
+
 
 ---
 
-    # Products Page
+# Products Page
     
-    - 
+  - Product page has 6 cards with pictures of the items available to pre-order.
+  - Heach card has name of the item, description and price of the item. 
+  - Invites people to create a pre-order with a simple click on the button at the bottom of each card.
+  - Pre-order button leads you to a new page where you can pre-oder the item.
+
+![Products Page](documentation/products_page.png)
 
 
 ---
 
-    # Trends Page
+# Trends Page
     
-    - 
+  - This page has two iframes conected to two fashion Websites: Vogue and Glamour.
+  - Invite users to get to know more about fashion and help users to understand more about what to wear in the season.
+  - User will know what is trendy to wear without having to leave our website. 
 
 
+![Trends page](documentation/trends-page.png)
 
+---
+
+# Contact Page
+    
+  - 
+
+
+---
+
+# About us Page
+    
+  - 
+
+
+---
 
 
