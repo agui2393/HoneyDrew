@@ -122,9 +122,53 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 ## About us Page
     
-  - 
+  - About us page has a short description of the company's philosophy.
+  - Apicture of the brand has been added to the right of the text.
+  - An iframe with the maps location has been added to the bottom right corner to make easier for users to know the shop location.
+  - Next to the iframe the Address has been added for more accesibility.
+  - Contains a table with opening times of the shop.
 
+![About us](documentation/about_us.png)
 
 ---
+
+## Pre-order Page
+
+  - This page will appear after users click on the Pre-order button on the products page.
+  - Contains a form: 
+    - Imput areas has been added for users to imput personal details and delivery details. 
+    - Dropdown box has been added to allow user to select the item they would like to buy. 
+    - Contains a submit button that lead you to a response page and a reset button to clear the form.
+  - All inputs are set to be required to fill out a exception of the text area as this is not a requirement.
+  - The page is responsive on all common screen sizes.
+
+  ![Pre-order Page](documentation/preorder_page.png)
+
+---
+## Response Pages
+
+### Newsletter Response
+  - Response page appears after submitting the subscrtion to the newsletter.
+  - It contains the thank you message.
+  - Below the message a button will lead to back to the Home Page.
+
+  ![Newsletter Respose](documentation/newsletter_response.png)
+
+### Pre-order Form Response
+
+  - Response page appears after submitting the Pre-order form.
+  - It contains the thank you message and the promise to get in touch within 24 hours regarding your pre-order.
+  - It contains a message to inform users that orders will have to be paid before order is confirmed.
+  - Below the message a button will lead to back to the Home Page.
+
+  ![Pre-order Response](documentation/response_preorder.png)
+
+### Contact Form Response
+  - Response page appears after submitting the contact form.
+  - It contains the thank you message and the promise to get in touch within 24 hours.
+  - Below the message a button will lead to back to the Home Page.
+
+  ![Contact Response](documentation/contact_response.png)
+
 
 
