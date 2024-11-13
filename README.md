@@ -6,7 +6,7 @@
 The Honeydrew website allows visitors to explore our latest clothing collections and learn more about our brand. You can browse through stylish outfits, get the latest updates on new arrivals, and easily make pre-orders online. Visitors can quickly get in touch with us for customer support, inquiries
 Check out our website at the following [link] (https://github.com/agui2393/HoneyDrew)
 ---
-# First Time Visitor Goals:
+## First Time Visitor Goals:
 * As a First Time Visitor, I want to quickly understand the main purpose of the site, so I can learn more about Honeydrew and what makes its clothing unique.
 * As a First Time Visitor, I want to easily navigate through the website, so I can find the clothing collections, pricing, and information about the brand.
 
@@ -15,13 +15,13 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 * As a Returning Visitor, I want to find detailed product descriptions, so I can make informed purchase decisions.
 * As a Returning Visitor, I want an easy way to contact customer support, so I can get help with sizing, orders, or returns.
 * As a Returning Visitor, I want to explore community and sustainability initiatives, so I can learn more about the brand’s values and how I can support them.
-### Frequent Visitor Goals:
+## Frequent Visitor Goals:
 * As a Frequent Visitor, I want to receive updates on sales, discounts, and special promotions, so I don’t miss out on the best deals.
 * As a Frequent Visitor, I want to be able to easily contact customer service for any issues with my orders, returns, or exchanges, so I can receive prompt assistance.
 
-## Features
+# Features
 
-+ # Navigation bar
++ ## Navigation bar
     - Positioned at the top of the page.
     - Contains navigation links on the left side:
       * Home: leads to the home where users can see some images of the brand and can subscribe to the newsletter.
@@ -31,6 +31,7 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
       * About us: leads to the home page where users can learn about the company HONEYDREW.
     - The links have animated hover effect.
     - The navigation is clear and easy to understand for the user.
+
     ![NavBar desktop](documentation/navbar_bigscreen.png)
 
     - The navigation bar is responsive:
@@ -49,7 +50,7 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
     ![NavBar Open](documentation/navbar_ipad.png)
 
 
-+ # Footer
++ ## Footer
 
     - Positioned at the bottom of the page contatins social media links in a new web.
     - Links has been added to the different sections of the website to make easier for users to go back to the other sections without having to scroll back to the top of the website.
@@ -57,22 +58,22 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
     ![Footer](documentation/footer.png)
 
-    
-
-## Website Pages
 
 
-# Home Page
+# Website Pages
+
+
+## Home Page
 
     - Represent: 
-      
+    
    * Showcase pictures of the company in a carrousel.
    * Invites people to join the newsletter to keep updated with last news.
-     
+    
 
    ![Home Page](documentation/homepage.png)
 
-   * The newsletter area contains and imput area to type your email.
+   * The newsletter area contains and imput area to type your email (this is a requiered field).
    * A "Subscribe" button has been added to submit your email  and will lead you to a new page with a "Thank you" message.
 
    ![Newsletter](documentation/newsletter.png)
@@ -80,7 +81,7 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 ---
 
-# Products Page
+## Products Page
     
   - Product page has 6 cards with pictures of the items available to pre-order.
   - Heach card has name of the item, description and price of the item. 
@@ -92,25 +93,34 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 ---
 
-# Trends Page
+## Trends Page
     
   - This page has two iframes conected to two fashion Websites: Vogue and Glamour.
   - Invite users to get to know more about fashion and help users to understand more about what to wear in the season.
   - User will know what is trendy to wear without having to leave our website. 
 
 
-![Trends page](documentation/trends-page.png)
+![Trends Page](documentation/trends-page.png)
 
 ---
 
-# Contact Page
+## Contact Page
     
-  - 
+  - Contact details of the company have been added: Email and Telephone number for users to get in touch.
+  - Contains a contact form for users to imput their personal details and a message:
+    - All text input fields are customized.
+    - Placeholders have been added so user have an example of how to fill in the form.
+    - All inputs are set to be required to fill out.
+    - The submit button is animated on hover.
+  - The page is responsive on all common screen sizes.
+  - The submit button leads to the response page.
+  - A background picuture have been added to make it more attractive.
 
+![Contact Page](documentation/contact_page.png)
 
 ---
 
-# About us Page
+## About us Page
     
   - 
 
