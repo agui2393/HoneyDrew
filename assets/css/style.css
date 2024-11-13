@@ -21,11 +21,12 @@ main{
 /*----- << Home Page Styling >>----- */
 
 .carousel-item{
-    height: 50vh;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    
 }
 
 
@@ -112,11 +113,12 @@ span.burger-line {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 15px;
 }
 
 .newsletter {
     color: white;
-    font-size: 2rem;
+    font-size: 18px;
     text-align: center;}
 
 
@@ -147,7 +149,7 @@ footer {
     gap: 10px;
     text-decoration: none;
 	padding: 0 15px;
-	font-size: 0.8rem;
+	font-size: 0.6rem;
 }
 
 .flex-footer > a:hover{
@@ -157,14 +159,16 @@ footer {
 
 .footercontent {
     text-transform: uppercase;
+    font-size: 0.8rem;
 }
 
 .footer-nav{
     display: flex;
     justify-content: center;
+    font-size: ;
     margin-top: 2%;
     width: 100%;
-    gap: 30px;
+    gap: 20px;
     text-decoration: none;
     list-style-type: none;
 
@@ -232,7 +236,7 @@ input[type=submit] {
     margin-top: 20px;
     margin-bottom: 20px;
 	margin-left: 0.75rem;
-	padding: 0.75rem;
+	padding: 0.5rem;
 	background-color: white;
 	color: #000;
 	border: 1px solid #000;
@@ -243,7 +247,7 @@ input[type=reset] {
     margin-top: 20px;
     margin-bottom: 20px;
 	margin-left: 0.75rem;
-	padding: 0.75rem;
+	padding: 0.5rem;
 	background-color: white;
 	color: #000;
 	border: 1px solid #000;
@@ -275,6 +279,7 @@ input[type=reset] {
     padding: 20px;
     border-radius: 5px; 
     color: white;
+    box-sizing: content-box;
 }
 
 .text-white2{
@@ -396,6 +401,15 @@ iframe{
     textarea{
         width: 100%;
     }
+    .footer-nav{
+        gap: 10px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    contact-box{
+        box-sizing: content-box;
+    }
 
     form{
         display: flex;
@@ -405,11 +419,7 @@ iframe{
     .responsive-center{
         text-align: center;
     }
-    .footercontent{
-        position: fixed;
-
-    }
     .gap{
         width: 100%;
     }
-  }
+}
