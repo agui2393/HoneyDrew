@@ -65,7 +65,7 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 ## Home Page
 
-    - Represent: 
+   - Represent: 
     
    * Showcase pictures of the company in a carrousel.
    * Invites people to join the newsletter to keep updated with last news.
@@ -170,5 +170,49 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
   ![Contact Response](documentation/contact_response.png)
 
+---
+
+# Technologies Used
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as core structure of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was applied to style and arrange the layout of the website.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to position elements symmetrically across the pages.
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was employed to ensure the site is responsive on different screen sizes.
+- [Canva](https://www.canva.com/en_gb/) was used to make wireframes for the website.
+- [VSCode](https://code.visualstudio.com/) served as the primary code editor for writing and modifying the website's code.
+- [Git](https://git-scm.com/) was used for the version control of the website.
+- [GitHub](https://github.com/) was used to host the code of the website.
+- [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) was used to create and style navbar.
+
+---
+
+# Design
+
+## Color Scheme
+
+- The website uses a black, white, and grey color scheme for a clean, modern aesthetic and a professional look.
+- Black is used for key design elements to evoke sophistication, elegance, and timelessness, reinforcing the brand's high-quality and fashionable identity.
+- White serves as the primary background color, creating a clean, minimalistic look that allows the products to stand out while promoting a sense of freshness and simplicity.
+- Grey is incorporated as a subtle accent color, adding depth and balance to the overall design without detracting from the brand's sleek, contemporary feel.
+
+![Color Scheme](documentation/color_scheme.png)
 
 
+
+## Typography
+
+- The Trebuchet MS font was used to give the Honeydrew brand a modern, clean, and approachable feel. It helps draw attention to key elements like the logo, highlights the brand's strengths, and encourages visitors to engage with the brand, whether through browsing collections or making a pre-order.
+
+![Trebuchet MS](documentation/font.png)
+
+---
+
+# Wireframes
+
+- The wireframe for the Honeydrew website was designed to map out the structure and layout of key pages before development. It provides a visual representation of the website’s design elements, including navigation, content placement, and user interface (UI) components.
+
+- You can view and download the wireframe in PDF format from the link below:
+
+  ![Wireframe PDF](documentation/wireframes.pdf)
+
+- The wireframe serves as a blueprint for the site, ensuring that the user experience (UX) is intuitive and well-organized. It helped guide the design process, ensuring that the layout aligned with the brand's goals and user needs. Some change were done since create the wire frame to make a better UX experience such as adding the bottom link to the website pages.
