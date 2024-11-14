@@ -245,7 +245,7 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
   - [Wireframe PDF](documentation/wireframes.pdf)
 
-- The wireframe serves as a blueprint for the site, ensuring that the user experience (UX) is intuitive and well-organized. It helped guide the design process, ensuring that the layout aligned with the brand's goals and user needs. Some change were done since create the wire frame to make a better UX experience such as adding the bottom link to the website pages.
+- The wireframe serves as a blueprint for the site, ensuring that the user experience (UX) is intuitive and well-organized. It helped guide the design process, ensuring that the layout aligned with the brand's goals and user needs. Several changes were made since the creation of the wireframe to improve the user experience (UX), including the addition of bottom links to the website pages for eas
 
 ---
 

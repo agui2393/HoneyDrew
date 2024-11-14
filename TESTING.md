@@ -60,7 +60,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 ![Response Contact](documentation/responsive_response_contact.png)
 
-+ The website was also tested for responsiveness on mobile devices size with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
++ The website was also tested for responsiveness on mobilephone devices size with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 
 ![Website phone size](documentation/phone_responsive.jpg)
 ---
@@ -115,78 +115,80 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 
 
-# Validator testing
+## Validator testing
 
-+ ## HTML
++ ### HTML
 
-### Home Page
+- Home Page
 
-- No errors or warnings were found when passing through the official W3C validator.
+  - No errors or warnings were found when passing through the official W3C validator.
 
     ![Home Page HTML Validator](documentation/index_validatorw3c.png)
 
-### Products Page
+- Products Page
 
-- No errors or warnings were found when passing through the official W3C validator.
+  - No errors or warnings were found when passing through the official W3C validator.
 
     ![Products Page HTML Validator](documentation/products_validatorw3c.png)
 
-### Trends Page
+- Trends Page
 
-- No errors or warnings were found when passing through the official W3C validator.
+  - No errors or warnings were found when passing through the official W3C validator.
 
     ![Trends Page HTML Validator](documentation/trends_validatorw3c.png)
 
-### Contact Page
+- Contact Page
 
-- No errors or warnings were found when passing through the official W3C validator.
+  - No errors or warnings were found when passing through the official W3C validator.
 
     ![ Contact Page HTML Validator](documentation/validator_contactw3c.png)
 
-### About us Page
+- About us Page
 
-- No errors or warnings were found when passing through the official W3C validator.
+  - No errors or warnings were found when passing through the official W3C validator.
 
     ![About us HTML Validator](documentation/aboutus_validatorw3c.png)
 
-### Pre-order Page
+- Pre-order Page
 
-- No errors or warnings were found when passing through the official W3C validator.
+  - No errors or warnings were found when passing through the official W3C validator.
 
     ![Pre-order HTML Validator](documentation/preorder-validatorw3c.png)
 
-### Response Newsletter Page
+- Response Newsletter Page
 
-- No errors or warnings were found when passing through the official W3C validator.
+  - No errors or warnings were found when passing through the official W3C validator.
 
     ![Response Newsletter HTML Validator](documentation/newsletter_response_validatorw3c.png)
 
-### Response Pre-order Page
+- Response Pre-order Page
 
-- No errors or warnings were found when passing through the official W3C validator.
+  - No errors or warnings were found when passing through the official W3C validator.
 
     ![Response Pre-order HTML Validator](documentation/preorder-validatorw3c.png)
 
-### Response Contact Page
+- Response Contact Page
 
-- No errors or warnings were found when passing through the official W3C validator.
+  - No errors or warnings were found when passing through the official W3C validator.
 
     ![Response Contact HTML Validator](documentation/contact_response_validatorw3c.png)
 
-### CSS
++ ### CSS
   No errors or warnings were found when passing through the official W3C validator.
 
   ![CSS HTML Validator](documentation/css_validatorw3c.png)
 
-+ ## LightHouse report
++ ### LightHouse report
 
 - Using Lighthouse in DevTools, I confirmed that the website is accessible and that the chosen colors and fonts are legible. However, a performance issue was identified, primarily due to the use of large images and the implementation of Bootstrap, which can impact load times. To address this, I plan to optimize images by compressing them and using responsive image techniques, such as the srcset attribute, to ensure faster loading. Additionally, I will explore replacing certain Bootstrap components with custom, lightweight solutions to improve overall performance. This will be part of my future improvements.
 
 ![Lighthouse Report](documentation/lighthouse_report1.png)
 
+
 - The "Trends" & "About us" pages in Lighthouse showed a decrease in the Best Practices score due to the external websites embedded within the iframes using cookies. To address this issue, we could check if the iframe content can be served without cookies, or if the external website offers a cookie-free version for embedding.
 
 ![Lighthouse Report](documentation/lighthouse_report2.png)
+
 
 - The response pages performed excellently across all areas, with the Lighthouse report showing strong results in key performance metrics such as accessibility, SEO, and best practices. There were no significant issues identified, and the pages passed all critical tests with high scores. This indicates a smooth user experience and optimized performance.
 
@@ -206,5 +208,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 + ### Mistakes
 
 - I made some mistakes when committing changes initially, particularly with the use of past tense in my commit messages. As I continued working on the project, I realized the importance of using the present tense in commit messages to better align with best practices. 
+
 - Initially, I developed the habit of committing changes before thoroughly testing them. However, I now understand the importance of testing changes first to ensure they work as expected, and I've since made it a priority to test all changes before committing.
+
 - One of the mistakes I made early on was creating a new branch in the GitHub project when saving it for the first time, as I didn't fully understand how Git and GitHub worked. I now understand the importance of using the main branch for initial commits and only creating new branches when adding features or making significant changes. Going forward, I'll ensure to follow best practices by using branches effectively and keeping the main branch stable.
