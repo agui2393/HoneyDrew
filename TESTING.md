@@ -137,8 +137,26 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     ![About us HTML Validator](documentation/aboutus_validatorw3c.png)
 
+### Pre-order Page
+
+- No errors or warnings were found when passing through the official W3C validator.
+
+    ![Pre-order HTML Validator](documentation/preorder-validatorw3c.png)
+
 ### Respone Newsletter Page
 
 - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Response Newsletter HTML Validator](documentation/aboutus_validatorw3c.png)
+    ![Response Newsletter HTML Validator](documentation/)
+
+### Respone Pre-order Page
+
+- No errors or warnings were found when passing through the official W3C validator.
+
+    ![Response Pre-order HTML Validator](documentation/)
+
+### Respone Contact Page
+
+- No errors or warnings were found when passing through the official W3C validator.
+
+    ![Response Contact HTML Validator](documentation/)

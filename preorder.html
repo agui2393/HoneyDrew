@@ -20,7 +20,7 @@
 <header>
 
     <div>
-     <a aria-current="page" href="index.html"><img src="assets/images/honeydrew-high-resolution-logo-grayscale.png" alt="Honeydrew logo black" width="300px" height="200px"></a>
+     <a aria-current="page" href="index.html"><img src="assets/images/honeydrew-high-resolution-logo-grayscale.png" alt="Honeydrew logo black" width="300" height="200"></a>
     </div>
    
    
@@ -29,11 +29,11 @@
      <div class="container-fluid">
       
        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-         <div class="burger">
+         <span class="burger">
            <span class="burger-line"></span>
            <span class="burger-line"></span>
            <span class="burger-line"></span>
-         </div>
+         </span>
        </button>
    
        <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -70,13 +70,13 @@
     <legend>Personal Details</legend>
         <div class="flex gap-20 form-column">
           <div>
-           <label for="name-field" class="block-label">First Name</label>
-           <input id="name-field" type="text" name="f_name" placeholder="John" required>
+           <label for="firstname-field" class="block-label">First Name</label>
+           <input id="firstname-field" type="text" name="firstname" placeholder="John" required>
           </div>
 
          <div>
-          <label for="name-field" class="block-label">Second Name</label>
-          <input id="name-field" type="text" name="S_name" placeholder="Lloyd" required>
+          <label for="secondname-field" class="block-label">Second Name</label>
+          <input id="secondname-field" type="text" name="Second_name" placeholder="Lloyd" required>
          </div>
 
          <div>
@@ -94,12 +94,12 @@
       <input id="address-field" type="text" name="street" placeholder="2 Steward Street" required>
       </div>
       <div>
-        <label for="address-field" class="block-label">Postcode</label>
-        <input id="address-field" type="text" name="postcode" placeholder="L23 3SD" required>
+        <label for="postcode-field" class="block-label">Postcode</label>
+        <input id="postcode-field" type="text" name="postcode" placeholder="L23 3SD" required>
       </div>
       <div>
-      <label for="address-field" class="block-label">Country</label>
-      <input id="address-field" type="text" name="city" placeholder="United Kingdom" required>
+      <label for="country-field" class="block-label">Country</label>
+      <input id="country-field" type="text" name="city" placeholder="United Kingdom" required>
       </div>
     </div>
   </fieldset>
@@ -108,13 +108,14 @@
 <fieldset class="personal-details form-column gap">
   <div>
     <label for="Selected-item" class="block-label">Please, choose the product you'd like to purchase:</label>
-    <select id="Selected-item" list="Items" name="Selected-items" required>
-      <option value="Black Backpack">Black Backpack</option>
-      <option value="White Cap">White Cap</option>
-      <option value="Dress">Black Polka Dress</option>
-      <option value="Trousers">Cargo Trousers</option>
-      <option value="T-shirt"> Black T-shirt</option>
-      <option value="Hodie"> Black Hoddie</option>
+      <select id="Selected-item" name="Selected-items" required>
+        <option value="" disabled selected>Select a product</option>
+        <option value="Black Backpack">Black Backpack</option>
+        <option value="White Cap">White Cap</option>
+        <option value="Dress">Black Polka Dress</option>
+        <option value="Trousers">Cargo Trousers</option>
+        <option value="T-shirt"> Black T-shirt</option>
+        <option value="Hodie"> Black Hoddie</option>
       </select>
   </div>
 </fieldset>
