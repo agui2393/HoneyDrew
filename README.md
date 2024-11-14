@@ -23,7 +23,6 @@ Check out our website at the following [link](https://agui2393.github.io/HoneyDr
   - [Home Page](#home-page)
   - [Products Page](#products-page)
   - [Trends Page](#trends-page)
-  - [Products Page](#products-page)
   - [Contact Page](#contact-page)
   - [About us Page](#About-us-page)
   - [Pre-order Page](#pre-order-page)
