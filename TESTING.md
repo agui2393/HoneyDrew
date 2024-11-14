@@ -85,6 +85,9 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
 | Products page | | | | | |
 | "Submit" button | Click on the "Pre-order" button | The user is redirected to the Preorder page | Yes | Yes | - |
+| Trends page | | | | | |
+| iframe | Open trends page | Iframe should show Vogue website | Yes | Yes | - |
+| iframe| Open trend page | Iframe should show Magazine website | Yes | Yes | -|
 | Pre-order page | | | | | |
 | First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
 | Second name input | Enter the second name | The second name is entered | Yes | Yes | If user doesn't enter the last name, the error message appears |
@@ -101,6 +104,9 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
 | Text area | Enter text | text entered | Yes | Yes |  If user doesn't enter the first name, the error message appears |
 | "Send your message" button | Click on the "Send your message" button | The user is redirected to the response page | Yes | Yes | - |
+| About us page | | | | | |
+| iframe | Open about us page | Iframe should show gppgle maps| Yes | Yes | - |
+
 
 
 # Validator testing
@@ -176,7 +182,20 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 ## Bugs
 + ### Solved bugs
+The testimonials pictures had a square shape in Brave browser on a mobile phone when the border radius had been set to 50%. It was due to the outline properties settings instead of the border
+
+Solutions: Outline was replaced with border properties.
+
+The gallery image descriptions were not appearing on the picture when hovering it as the position of the .image_content was set to fixed.
+
+Solution: The .image_content position was set to absolute, with the top: 0, left: 0, and added padding on the .image_content.
+
+Footer on the contact page was reducing the size of the screen and shrank the contact form as the height of the background image was set to calc(100vh-the size of the footer)
+
+Solution: The height of the image was set to 100hv, and the display of the footer was set to fixed.
 
 + ### Unsolved bugs
-
+None.
 + ### Mistakes
+Mistakes were made while committing changes. I used past simple tense in commits due to the habit when I just started working on this project.
+While progressing in my code I learned to use present simple tense in commits.
