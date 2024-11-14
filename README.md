@@ -208,7 +208,6 @@ Check out our website at the following [link](https://agui2393.github.io/HoneyDr
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as core structure of the site.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was applied to style and arrange the layout of the website.
 - [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to position elements symmetrically across the pages.
-- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was employed to ensure the site is responsive on different screen sizes.
 - [Canva](https://www.canva.com/en_gb/) was used to make wireframes for the website.
 - [VSCode](https://code.visualstudio.com/) served as the primary code editor for writing and modifying the website's code.
 - [Git](https://git-scm.com/) was used for the version control of the website.
@@ -300,9 +299,9 @@ In your IDE Terminal, type the following command to clone my repository:
 
   - [1st image](https://unsplash.com/es/fotos/telefono-con-cable-negro-JYGnB9gTCls)
   - [2nd image](https://unsplash.com/photos/person-wearing-pink-hoodie-6ZYaU4whSQA)
-  - [3rd image](https://unsplash.com/es/fotos/hombre-con-chaqueta-negra-sentado-en-la-silla-Pr9rnO7yA-k);
-  - [4th image](https://unsplash.com/es/fotos/hombre-con-camiseta-negra-de-cuello-redondo-y-pantalones-negros-saltando-en-las-escaleras-aZFc5NRtJUQ);
-  - [5th image](https://unsplash.com/es/fotos/un-hombre-parado-en-un-campo-con-una-ciudad-al-fondo-m2-j5f2HtDY);
+  - [3rd image](https://unsplash.com/es/fotos/hombre-con-chaqueta-negra-sentado-en-la-silla-Pr9rnO7yA-k)
+  - [4th image](https://unsplash.com/es/fotos/hombre-con-camiseta-negra-de-cuello-redondo-y-pantalones-negros-saltando-en-las-escaleras-aZFc5NRtJUQ)
+  - [5th image](https://unsplash.com/es/fotos/un-hombre-parado-en-un-campo-con-una-ciudad-al-fondo-m2-j5f2HtDY)
   - [6th image](https://images.unsplash.com/photo-1605924709451-98072c51693f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=kyle-cleveland-qzNS1UfgZ_c-unsplash.jpg;)
   - [7th image](https://images.unsplash.com/photo-1517941823-815bea90d291?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=ethan-haddox-qpTKvwp4zx0-unsplash.jpg;)
   - [8th image](ttps://images.unsplash.com/photo-1511405946472-a37e3b5ccd47?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=charlesdeluvio-Ghrv69I9mPw-unsplash.jpg;)
