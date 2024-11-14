@@ -7,6 +7,42 @@ The Honeydrew website allows visitors to explore our latest clothing collections
 Check out our website at the following [link] (https://github.com/agui2393/HoneyDrew)
 ---
 
+## Table of Contents
+
+1. [Headers](#headers)
+  - [Subheaders](#subheaders)
+2. [Lists](#lists)
+3. [Visitors goals](#visitors-goals)
+  - [First Time Visitors goals](#first-time-visitors-goals)
+  - [Returning Visitors goals](#returning-visitors-goals)
+  - [Frequent Visitors goals](#frequent-visitors-goals)
+4. [Features](#features)
+  - [Navigation bar](#navigation-bar)
+  - [Footer](#footer)
+5. [Website Pages](#website-pages)
+  - [Home Page](#home-page)
+  - [Products Page](#products-page)
+  - [Trends Page](#trends-page)
+  - [Products Page](#products-page)
+  - [Contact Page](#contact-page)
+  - [About us Page](#About-us-page)
+  - [Pre-order Page](#pre-order-page)
+  - [Response Pages](#response-pages)
+6. [Technologies used](#technologies-used)
+7. [Design](#design)
+  - [Color Scheme](#color-scheme)
+  - [Typography](#typography)
+  - [Wireframes](#wireframes)
+8. [Testing](#testing)
+9. [Deployment](#deployment)
+  - [Deployment to GiHub Pages](#deployment-to-github-pages)
+  - [Local Deployment](#local-deployment)
+10. [Future Improvements](#future-improvements)
+11. [Credits](#credits)
+  - [Content](#content)
+  - [Media](#media)
+12. [Acknowledgments](#acknowledgments)
+
 ## Visitors Goals 
 
 ### First Time Visitor Goals:
@@ -240,7 +276,7 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ---
 
-## Future improvements
+## Future Improvements
 
 - Add shearch box to the navbar to make users to search easily on the website.
 - Add custom 404 page.
