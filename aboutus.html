@@ -10,29 +10,26 @@
     content="Honeydew, sustainable fashion, eco-friendly clothing, modern clothing, sustainable brand, clothing brand">
   <meta name="author" content="Carlos Vidal">
   <title>HONEYDREW|About Us</title>
-
+  <!-- Bootstrap CSS for responsive grid system and components -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+  <!-- Link to the site's custom CSS for additional styling -->
   <link rel="stylesheet" href="assets/css/style.css">
-
-
 </head>
 
 <body>
-
+  <!-- Header section containing the logo and navigation menu -->
   <header>
-
     <div>
       <a aria-current="page" href="index.html" aria-label="Go to the home page">
         <img src="assets/images/honeydrew-high-resolution-logo-grayscale.png" alt="Honeydrew logo black" width="300"
           height="200">
       </a>
     </div>
-
+    <!-- Navbar section, each navbar item is a link to a page (uses Bootstrap for responsive behavior) -->
     <nav class="navbar navbar-expand-lg text-bg-dark p-3">
       <div class="container-fluid">
-
+        <!-- Hamburger button to toggle navigation menu on small screens -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="burger">
@@ -41,7 +38,7 @@
             <span class="burger-line"></span>
           </span>
         </button>
-
+        <!-- Hamburger button to toggle navigation menu on small screens -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -64,14 +61,13 @@
         </div>
       </div>
     </nav>
-
   </header>
-
+  <!-- Main section for the About Us page, with background styling specific to this page -->
   <main class="backgroundtrends">
-
     <div class="text-white">
       <h2 class="text-center">Our Brand</h2>
     </div>
+    <!-- Container for the brand introduction, with text and an image -->
     <div class="flex gap-20 text-white contact-holder">
       <div>
         <p>Welcome to Honeydrew, a bold new clothing brand based in Granada, Spain.<br> We are a startup that blends
@@ -84,14 +80,16 @@
           as we grow and bring a fresh perspective to the world of design.</p>
         <p>HONEYDREW - Where industrial meets Andalusian soul</p>
       </div>
+      <!-- Image related to the brand -->
       <div class="picture-centre">
         <img src="assets/images/about-us.jpg" alt="Men wearing a hoodie in the middle of an industrial looking space"
           width="300" height="400">
       </div>
     </div>
-
+    <!-- Container business details -->
     <div class="container text-white">
       <div class="row">
+        <!-- Shop opening times table -->
         <div class="shop-info col-md-4 mb-4">
           <h3>Open times</h3>
           <table class="shop-times">
@@ -112,10 +110,12 @@
             </tr>
           </table>
         </div>
+        <!-- Shop address section -->
         <div class="shop-info col-md-4 mb-4">
           <h3>Address</h3>
           <p>Honeydrew,<br>Calle Las Tablas,<br>Granada</p>
         </div>
+        <!-- Google Maps embed showing the location of the shop -->
         <div class="map-wrapper col-md-4 mb-4">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.018145325884!2d-3.6054438244452855!3d37.176039746423996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fc950b9617a1%3A0x14a52ed4896c1b9a!2sC.%20Tablas%2C%20Centro%2C%2018002%20Granada%2C%20Espa%C3%B1a!5e0!3m2!1ses!2suk!4v1730814569781!5m2!1ses!2suk"
@@ -127,9 +127,10 @@
       </div>
     </div>
   </main>
-
+  <!-- Footer section with social media links and additional navigation links -->
   <footer class="footercontent">
     <div class="flex-footer">
+      <!-- Social media links -->
       <span>Find us on:</span>
       <a href="https://www.facebook.com" target="_blank" rel="noopener"
         aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
@@ -138,6 +139,7 @@
       <a href="https://www.twitter.com" target="_blank" rel="noopener"
         aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
     </div>
+    <!-- Footer navigation links-->
     <div>
       <ul class="footer-nav">
         <li class="nav-item">
@@ -158,8 +160,10 @@
       </ul>
     </div>
     <br>
+    <!-- Copyright message -->
     <p class="copyright">&copy; 2024 HONEYDREW. All rights reserved.</p>
   </footer>
+  <!-- Bootstrap scripts for functionality of interactive elements like the carousel and navigation menu -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
   </script>
