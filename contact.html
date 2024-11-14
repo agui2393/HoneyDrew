@@ -22,7 +22,7 @@
 <header>
 
     <div>
-     <a aria-current="page" href="index.html"><img src="assets/images/honeydrew-high-resolution-logo-grayscale.png" alt="Honeydrew logo black" width="300px" height="200px"></a>
+     <a aria-current="page" href="index.html"><img src="assets/images/honeydrew-high-resolution-logo-grayscale.png" alt="Honeydrew logo black" width="300" height="200"></a>
     </div>
    
    
@@ -31,11 +31,11 @@
      <div class="container-fluid">
       
        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-         <div class="burger">
+         <span class="burger">
            <span class="burger-line"></span>
            <span class="burger-line"></span>
            <span class="burger-line"></span>
-         </div>
+         </span>
        </button>
    
        <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -70,42 +70,38 @@
       <h3>Get in touch</h3>
     </div>
     <div>
-     <span>Phone:+34 958456118</span>
+      <span>Phone:+34 958456118</span>
     </div>
     <div>
-     <span>Email: Honeydrew@hotmail.com</span>
+      <span>Email: Honeydrew@hotmail.com</span>
     </div>
-   </div>
+  </div>
   
     <form action="thankyou_contact.html" method="GET">
 
-     <fieldset class="contact-box text-white2">
-     <legend>Your details</legend>
+  <fieldset class="contact-box text-white2">
+    <legend>Your details</legend>
         <div class="flex form-column gap-20">
-            <div>
-          <label for="name-field" class="block-label">Full Name:</label>
-          <input class="box-center" id="name-field" type="text" name="full_name" placeholder="John Lloyd" required>
+          <div>
+            <label for="name-field" class="block-label">Full Name:</label>
+            <input class="box-center" id="name-field" type="text" name="full_name" placeholder="John Lloyd" required>
+          </div>
+          <div>
+            <label for="email-field" class="block-label">Email:</label>
+            <input id="email-field" type="email" name="email" placeholder="Jlloyd@hotmail.com" required>
+          </div>
         </div>
-        <div>
-          <label for="email-field" class="block-label">Email:</label>
-          <input id="email-field" type="email" name="email" placeholder="Jlloyd@hotmail.com" required>
-        </div>
+  </fieldset>
 
-     </fieldset>
-
-     <fieldset class="contact-box text-white2">
-     <legend>Your message:</legend>
-     <label for="message" class="block-label"></label>
-     <br>
-     <textarea id="message" rows="8" cols="50" name="message" placeholder="How can we help you?" required></textarea>
-     </fieldset>
-   
-     <input type="submit" class="button-imput" value="Send your message" >  
+  <fieldset class="contact-box text-white2">
+      <legend>Your message:</legend>
+      <label for="message" class="block-label"></label>
+      <br>
+      <textarea id="message" rows="8" cols="50" name="message" placeholder="How can we help you?" required></textarea>
+  </fieldset>
+      <input type="submit" class="button-imput" value="Send your message" >  
 
     </form>
-    
-
- 
   
 </main>
 

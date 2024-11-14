@@ -262,6 +262,10 @@ input[type=reset] {
     height: 100%;
 }
 
+.trends{
+    margin-top: 20px;
+}
+
 
 /*----- << Contact Page Styling >>----- */
 
@@ -314,9 +318,9 @@ input[type=reset] {
 }
 
 .shop-times{
- width: 100%;
- margin-left: 20px;
- border: 2px solid black;
+    width: 100%;
+    margin-left: 20px;
+    border: 2px solid black;
 }
 
 .shop-times th, .shop-times td{

@@ -103,3 +103,42 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | "Send your message" button | Click on the "Send your message" button | The user is redirected to the response page | Yes | Yes | - |
 
 
+# Validator testing
+
++ ## HTML
+
+### Home Page
+
+- No errors or warnings were found when passing through the official W3C validator.
+
+    ![Home Page HTML Validator](documentation/index_validatorw3c.png)
+
+### Products Page
+
+- No errors or warnings were found when passing through the official W3C validator.
+
+    ![Products Page HTML Validator](documentation/products_validatorw3c.png)
+
+### Trends Page
+
+- No errors or warnings were found when passing through the official W3C validator.
+
+    ![Trends Page HTML Validator](documentation/trends_validatorw3c.png)
+
+### Contact Page
+
+- No errors or warnings were found when passing through the official W3C validator.
+
+    ![ Contact Page HTML Validator](documentation/validator_contactw3c.png)
+
+### About us Page
+
+- No errors or warnings were found when passing through the official W3C validator.
+
+    ![About us HTML Validator](documentation/aboutus_validatorw3c.png)
+
+### Respone Newsletter Page
+
+- No errors or warnings were found when passing through the official W3C validator.
+
+    ![Response Newsletter HTML Validator](documentation/aboutus_validatorw3c.png)
