@@ -59,9 +59,8 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
     - Links has been added to the different sections of the website to make easier for users to go back to the other sections without having to scroll back to the top of the website.
     - Also copyright notice has been added into the footer area.
 
-    ![Footer](documentation/footer.png)
-
-
+![Footer](documentation/footer.png)
+---
 
 ## Website Pages
 
@@ -79,9 +78,7 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
    * The newsletter area contains and imput area to type your email (this is a requiered field).
    * A "Subscribe" button has been added to submit your email  and will lead you to a new page with a "Thank you" message.
 
-   ![Newsletter](documentation/newsletter.png)
-
-
+![Newsletter](documentation/newsletter.png)
 ---
 
 ### Products Page
@@ -92,8 +89,6 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
   - Pre-order button leads you to a new page where you can pre-oder the item.
 
 ![Products Page](documentation/products_page.png)
-
-
 ---
 
 ### Trends Page
@@ -104,7 +99,6 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 
 ![Trends Page](documentation/trends-page.png)
-
 ---
 
 ### Contact Page
@@ -120,7 +114,6 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
   - A background picuture have been added to make it more attractive.
 
 ![Contact Page](documentation/contact_page.png)
-
 ---
 
 ### About us Page
@@ -132,7 +125,6 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
   - Contains a table with opening times of the shop.
 
 ![About us](documentation/about_us.png)
-
 ---
 
 ### Pre-order Page
@@ -145,9 +137,9 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
   - All inputs are set to be required to fill out a exception of the text area as this is not a requirement.
   - The page is responsive on all common screen sizes.
 
-  ![Pre-order Page](documentation/preorder_page.png)
-
+![Pre-order Page](documentation/preorder_page.png)
 ---
+
 ### Response Pages
 
 - Newsletter Response
@@ -208,7 +200,6 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 ![Trebuchet MS](documentation/font.png)
 
----
 
 ### Wireframes
 
