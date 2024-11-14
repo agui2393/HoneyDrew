@@ -63,7 +63,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 ## Manual testing
 
-| feature | action | expected result | tested | passed | comments |
+| Feature | Action | Expected result | Tested | Passed | Comments |
 | --- | --- | --- | --- | --- | --- |
 | Navbar | | | | | |
 | Home | Click on the "Home" link | The user is redirected to the main page | Yes | Yes | - |
@@ -83,4 +83,23 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | Home page | | | | | |
 | Your email imput | Enter email | The email is entered | Yes | Yes |  If user doesn't enter the email, the error message appears |
 | "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
-| Home page | | | | | |
+| Products page | | | | | |
+| "Submit" button | Click on the "Pre-order" button | The user is redirected to the Preorder page | Yes | Yes | - |
+| Pre-order page | | | | | |
+| First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
+| Second name input | Enter the second name | The second name is entered | Yes | Yes | If user doesn't enter the last name, the error message appears |
+| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
+| Address input | Enter the Address | The Address is entered | Yes | Yes | If user doesn't enter the Address, the error message appears |
+| Postcode input | Enter the Postcode | The Postcode is entered | Yes | Yes | If user doesn't enter the Postcode, the error message appears |
+| Country input | Enter the Country | The Country is entered | Yes | Yes | If user doesn't enter the Country, the error message appears |
+| Dropdown box | Choose one of the options | Option selected | Yes | Yes | If user doesn't choose an option, the error message appears |
+| Text area | Enter text | text entered | Yes | Yes | - |
+| "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
+| "Reset" button | Click on the "reset" button | Form is cleared | Yes | Yes | - |
+| Contact page | | | | | |
+| Full name input | Enter the full name | The full name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
+| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
+| Text area | Enter text | text entered | Yes | Yes |  If user doesn't enter the first name, the error message appears |
+| "Send your message" button | Click on the "Send your message" button | The user is redirected to the response page | Yes | Yes | - |
+
+
