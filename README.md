@@ -252,6 +252,7 @@ In your IDE Terminal, type the following command to clone my repository:
 - Add custom 404 page.
 - Incluce new funtionalities such a sopping basket that allows you make direct purchases in the website.
 - For each item available to purchase create and individual page with more pictures of the item adding more information of each item.
+- Improve general performance of the pages.
 
 ---
 
