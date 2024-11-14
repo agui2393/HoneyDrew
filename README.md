@@ -6,22 +6,25 @@
 The Honeydrew website allows visitors to explore our latest clothing collections and learn more about our brand. You can browse through stylish outfits, stay updated on new arrivals, and easily make pre-orders online. Visitors can quickly get in touch with us for customer support, inquiries
 Check out our website at the following [link] (https://github.com/agui2393/HoneyDrew)
 ---
-## First Time Visitor Goals:
+
+## Visitors Goals 
+
+### First Time Visitor Goals:
 * As a First Time Visitor, I want to quickly understand the main purpose of the site, so I can learn more about Honeydrew and what makes its clothing unique.
 * As a First Time Visitor, I want to easily navigate through the website, so I can find the clothing collections, pricing, and information about the brand.
 
-## Returning Visitor Goals:
+### Returning Visitor Goals:
 * As a Returning Visitor, I want to see new arrivals and seasonal collections, so I can stay updated on the latest fashion trends.
 * As a Returning Visitor, I want to find detailed product descriptions, so I can make informed purchase decisions.
 * As a Returning Visitor, I want an easy way to contact customer support, so I can get help with sizing, orders, or returns.
 * As a Returning Visitor, I want to explore community and sustainability initiatives, so I can learn more about the brand’s values and how I can support them.
-## Frequent Visitor Goals:
+### Frequent Visitor Goals:
 * As a Frequent Visitor, I want to receive updates on sales, discounts, and special promotions, so I don’t miss out on the best deals.
 * As a Frequent Visitor, I want to be able to easily contact customer service for any issues with my orders, returns, or exchanges, so I can receive prompt assistance.
 
-# Features
+## Features
 
-+ ## Navigation bar
++ ### Navigation bar
     - Positioned at the top of the page.
     - Contains navigation links on the left side:
       * Home: leads to the home where users can see some images of the brand and can subscribe to the newsletter.
@@ -50,7 +53,7 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
     ![NavBar Open](documentation/navbar_ipad.png)
 
 
-+ ## Footer
++ ### Footer
 
     - Positioned at the bottom of the page contatins social media links in a new web.
     - Links has been added to the different sections of the website to make easier for users to go back to the other sections without having to scroll back to the top of the website.
@@ -60,10 +63,10 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 
 
-# Website Pages
+## Website Pages
 
 
-## Home Page
+### Home Page
 
    - Represent: 
     
@@ -81,7 +84,7 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 ---
 
-## Products Page
+### Products Page
     
   - The products page has 6 cards with pictures of the items available to pre-order.
   - Heach card has name of the item, description and price of the item. 
@@ -93,7 +96,7 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 ---
 
-## Trends Page
+### Trends Page
     
   - This page has two iframes conected to two fashion Websites: Vogue and Glamour.
   - Invite users to get to know more about fashion and help users to understand more about what to wear in the season.
@@ -104,7 +107,7 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 ---
 
-## Contact Page
+### Contact Page
     
   - Contact details of the company have been added: Email and Telephone number for users to get in touch.
   - Contains a contact form for users to imput their personal details and a message:
@@ -120,7 +123,7 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 ---
 
-## About us Page
+### About us Page
     
   - About us page has a short description of the company's philosophy.
   - Apicture of the brand has been added to the right of the text.
@@ -132,7 +135,7 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 ---
 
-## Pre-order Page
+### Pre-order Page
 
   - This page will appear after users click on the Pre-order button on the products page.
   - Contains a form: 
@@ -145,16 +148,16 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
   ![Pre-order Page](documentation/preorder_page.png)
 
 ---
-## Response Pages
+### Response Pages
 
-### Newsletter Response
+- Newsletter Response
   - Response page appears after submitting the subscrtion to the newsletter.
   - It contains the thank you message.
   - Below the message a button will lead to back to the Home Page.
 
   ![Newsletter Respose](documentation/newsletter_response.png)
 
-### Pre-order Form Response
+- Pre-order Form Response
 
   - Response page appears after submitting the Pre-order form.
   - It contains the thank you message and the promise to get in touch within 24 hours regarding your pre-order.
@@ -163,7 +166,7 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
   ![Pre-order Response](documentation/response_preorder.png)
 
-### Contact Form Response
+- Contact Form Response
   - Response page appears after submitting the contact form.
   - It contains the thank you message and the promise to get in touch within 24 hours.
   - Below the message a button will lead to back to the Home Page.
@@ -172,7 +175,7 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 ---
 
-# Technologies Used
+## Technologies Used
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as core structure of the site.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was applied to style and arrange the layout of the website.
@@ -186,9 +189,9 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 ---
 
-# Design
+## Design
 
-## Color Scheme
+### Color Scheme
 
 - The website uses a black, white, and grey color scheme for a clean, modern aesthetic and a professional look.
 - Black is used for key design elements to evoke sophistication, elegance, and timelessness, reinforcing the brand's high-quality and fashionable identity.
@@ -199,7 +202,7 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 
 
-## Typography
+### Typography
 
 - The Trebuchet MS font was used to give the Honeydrew brand a modern, clean, and approachable feel. It helps draw attention to key elements like the logo, highlights the brand's strengths, and encourages visitors to engage with the brand, whether through browsing collections or making a pre-order.
 
@@ -207,13 +210,13 @@ Check out our website at the following [link] (https://github.com/agui2393/Honey
 
 ---
 
-# Wireframes
+### Wireframes
 
 - The wireframe for the Honeydrew website was designed to map out the structure and layout of key pages before development. It provides a visual representation of the website’s design elements, including navigation, content placement, and user interface (UI) components.
 
 - You can view and download the wireframe in PDF format from the link below:
 
-  - ![Wireframe PDF](documentation/wireframes.pdf)
+  - [Wireframe PDF](documentation/wireframes.pdf)
 
 - The wireframe serves as a blueprint for the site, ensuring that the user experience (UX) is intuitive and well-organized. It helped guide the design process, ensuring that the layout aligned with the brand's goals and user needs. Some change were done since create the wire frame to make a better UX experience such as adding the bottom link to the website pages.
 
@@ -225,9 +228,9 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
 
 ---
 
-# Deployment
+## Deployment
 
-## Deployment to GitHub Pages
+### Deployment to GitHub Pages
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
 
@@ -237,7 +240,7 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
 
 The live link can be found [here](https://agui2393.github.io/HoneyDrew/)
 
-## Local Deployment
+### Local Deployment
 
 In order to make a local copy of this project, you can clone it.
 In your IDE Terminal, type the following command to clone my repository:
@@ -246,25 +249,25 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ---
 
-# Future improvements
+## Future improvements
 
 - Add shearch box to the navbar to make users to search easily on the website.
 - Add custom 404 page.
 - Incluce new funtionalities such a sopping basket that allows you make direct purchases in the website.
 - For each item available to purchase create and individual page with more pictures of the item adding more information of each item.
-- Improve general performance of the pages.
+- Improve general performance of the pages by reducing size of images.
 
 ---
 
-# Credits
+## Credits
 
-## Content
+### Content
 
 - Inspiration from Bootstrap Website to create different types of navbar. 
 - Inspiraton from Youtube Channel "The Net Ninja" to create some of the parts of the website and to implement CSS. 
 - Inspiration from Level 5 course in Web Application Development on Code Institute that has realle help me to unsderstand how to create a website using CSS and HTML.
 
-## Media
+### Media
 
 - Images taken from [Unsplash](https://unsplash.com/)
 
@@ -295,7 +298,7 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ---
 
-# Acknowledgments
+## Acknowledgments
 
 - [Lazaros Pilafas](https://github.com/LozPilafas), my husband and coding partner, for his incredible support throughout this project. Lazaros assisted me in implementing CSS, HTML  and testing, offering valuable guidance and helping to ensure the quality of the code. Beyond his technical contributions, he kept me calm and focused during the more challenging moments. I’m deeply grateful for his patience, collaboration, and constant encouragement.
 
