@@ -4,7 +4,7 @@
 # *HONEYDREW*
 
 The Honeydrew website allows visitors to explore our latest clothing collections and learn more about our brand. You can browse through stylish outfits, stay updated on new arrivals, and easily make pre-orders online. Visitors can quickly get in touch with us for customer support, inquiries
-Check out our website at the following [link] (https://github.com/agui2393/HoneyDrew)
+Check out our website at the following [link](https://github.com/agui2393/HoneyDrew)
 ---
 
 ## Table of Contents
