@@ -12,7 +12,7 @@ Check out our website at the following [link](https://agui2393.github.io/HoneyDr
 1. [Header](#header)
   - [Subheader](#subheader)
 2. [Table of Contents](#table-of-contents)
-3. [Targe Audinece](#target-audience)
+3. [Target Audience](#target-audience)
 4. [Visitors Goals](#visitors-goals)
   - [First Time Visitors Goals](#first-time-visitors-goals)
   - [Returning Visitors Goals](#returning-visitors-goals)
