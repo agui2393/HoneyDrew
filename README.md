@@ -30,6 +30,7 @@ Check out our website at the following [link](https://agui2393.github.io/HoneyDr
   - [Response Pages](#response-pages)
 7. [Technologies Used](#technologies-used)
 8. [Design](#design)
+  - [Process](#process)
   - [Color Scheme](#color-scheme)
   - [Typography](#typography)
   - [Wireframes](#wireframes)
@@ -223,6 +224,24 @@ This website is intentionally simple and clean, focusing on a seamless, intuitiv
 ---
 
 ## Design
+
+### Process
+
+The development of the Honeydrew website  began with brainstorming and research. I explored various ideas for the website. To gather inspiration, I researched websites from established fashion brands, paying close attention to their design styles, layouts, and features. This gave me an understanding of current trends in the fashion industry and helped me pinpoint which elements might work well for Honeydrew.
+
+After gathering inspiration, I selected design elements and styles that I felt best aligned with the brand's identity. Honeydrew has a modern, minimalist aesthetic, with a nod to the cultural heritage of Andalusia. From the websites I reviewed, I picked the elements and styles that I thought best reflected this clean layouts, simple yet impactful features, and user-friendly navigation
+
+With these ideas in mind, I moved on to creating a wireframe. This step was crucial for visualizing the layout of the website and organizing the pages I would need. I mapped out the key pages such as the homepage, product listings, about us, and contact page and also determined which features were necessary for the site. For example, as a small startup, Honeydrew doesn’t have enough inventory to fulfil immediate orders, so I implemented a pre-order system. This system would allow customers to place orders for items that would be created specifically under their request, ensuring that production aligns with demand.
+
+Once I had a clear wireframe, I started building the website using HTML and Bootstrap. These technologies allowed me to structure the site with a responsive and functional layout. Bootstrap was especially useful for making the website mobile friendly, ensuring it worked seamlessly on various screen sizes.
+
+After developing the basic structure, I turned to the styling of the website. I used CSS to create a minimalist design. I focused on a clean aesthetic that would allow the brand's products to stand out, with a color palette, typography, and spacing that all reflected Honeydrew’s unique identity.
+
+With the site built and styled, the next phase was testing. I needed to make sure all features were fully functional and met the needs of the brand. This included testing the pre-order system, product pages, and contact forms. I wanted to ensure the website was not only functional but also easy to use and navigate.
+
+To make sure the website was user-friendly, I invited friends to test it and provide feedback on their experience. Their input helped me refine the site’s usability. In addition, I received valuable feedback from my Code Institute mentor through a series of meetings. One of the key recommendations was to add navigation buttons to the footer of the website. This would allow users to easily navigate the site without having to scroll too much, improving overall user experience.
+
+After incorporating all the necessary changes and completing the testing, I compiled this README file to document the design process. The final result is a website that not only meets the needs of the Honeydrew brand but also offers a seamless and enjoyable experience for users.
 
 ### Color Scheme
 
