@@ -12,14 +12,15 @@ Check out our website at the following [link](https://agui2393.github.io/HoneyDr
 1. [Header](#header)
   - [Subheader](#subheader)
 2. [Table of Contents](#table-of-contents)
-3. [Visitors Goals](#visitors-goals)
+3. [Targe Audinece](#target-audience)
+4. [Visitors Goals](#visitors-goals)
   - [First Time Visitors Goals](#first-time-visitors-goals)
   - [Returning Visitors Goals](#returning-visitors-goals)
   - [Frequent Visitors Goals](#frequent-visitors-goals)
-4. [Features](#features)
+5. [Features](#features)
   - [Navigation bar](#navigation-bar)
   - [Footer](#footer)
-5. [Website Pages](#website-pages)
+6. [Website Pages](#website-pages)
   - [Home Page](#home-page)
   - [Products Page](#products-page)
   - [Trends Page](#trends-page)
@@ -27,20 +28,26 @@ Check out our website at the following [link](https://agui2393.github.io/HoneyDr
   - [About us Page](#About-us-page)
   - [Pre-order Page](#pre-order-page)
   - [Response Pages](#response-pages)
-6. [Technologies Used](#technologies-used)
-7. [Design](#design)
+7. [Technologies Used](#technologies-used)
+8. [Design](#design)
   - [Color Scheme](#color-scheme)
   - [Typography](#typography)
   - [Wireframes](#wireframes)
-8. [Testing](#testing)
-9. [Deployment](#deployment)
+9. [Testing](#testing)
+10. [Deployment](#deployment)
   - [Deployment to GiHub Pages](#deployment-to-github-pages)
   - [Local Deployment](#local-deployment)
-10. [Future Improvements](#future-improvements)
-11. [Credits](#credits)
+11. [Future Improvements](#future-improvements)
+12. [Credits](#credits)
   - [Content](#content)
   - [Media](#media)
-12. [Acknowledgments](#acknowledgments)
+13. [Acknowledgments](#acknowledgments)
+
+## Target Audience
+
+HoneyDrew website is designed for a dynamic and fashion-forward audience, primarily aged 20-35. Customers will be young adults who are passionate about style, culture, and individuality. Whether they are trendsetters, creative professionals, or those who appreciate versatile, high-quality pieces, Honeydrew caters to individuals who want clothing that is both innovative and timeless.
+
+This website is intentionally simple and clean, focusing on a seamless, intuitive experience. The design reflects the brand’s ethos impactful yet understated allowing the clothing itself to take center stage. It's a space that invites visitors to explore and connect with a fresh, contemporary take on southern Spanish traditions.
 
 ## Visitors Goals 
 
