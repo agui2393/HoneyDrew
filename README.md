@@ -227,6 +227,8 @@ This website is intentionally simple and clean, focusing on a seamless, intuitiv
 
 ### Process
 
+![Gantt Chart](documentation/gantt-chart.png)
+
 The development of the Honeydrew website  began with brainstorming and research. I explored various ideas for the website. To gather inspiration, I researched websites from established fashion brands, paying close attention to their design styles, layouts, and features. This gave me an understanding of current trends in the fashion industry and helped me pinpoint which elements might work well for Honeydrew.
 
 After gathering inspiration, I selected design elements and styles that I felt best aligned with the brand's identity. Honeydrew has a modern, minimalist aesthetic, with a nod to the cultural heritage of Andalusia. From the websites I reviewed, I picked the elements and styles that I thought best reflected this clean layouts, simple yet impactful features, and user-friendly navigation
