@@ -177,6 +177,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
   No errors or warnings were found when passing through the official W3C validator.
 
   ![CSS HTML Validator](documentation/css_validatorw3c.png)
+  ![CSS HTML Validator](documentation/css-validator.png)
 
 + ### LightHouse report
 
