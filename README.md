@@ -334,9 +334,12 @@ In your IDE Terminal, type the following command to clone my repository:
   - [8th image](https://images.unsplash.com/photo-1511405946472-a37e3b5ccd47?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=charlesdeluvio-Ghrv69I9mPw-unsplash.jpg;)
 
 
-- Images taken from [Pixabay](https://pixabay.com/)
+- Images & video taken from [Pixabay](https://pixabay.com/)
 
   - [1st image](https://pixabay.com/es/photos/seguridad-camera-black-and-white-79397/)
+
+  - [video](https://pixabay.com/videos/woman-stairs-model-young-girl-85529/)
+
 
 - Images taken from [Pexels](https://www.pexels.com/)
 
@@ -347,6 +350,8 @@ In your IDE Terminal, type the following command to clone my repository:
   
   - [Logo 1](assets/images/honeydrew-high-resolution-logo-grayscale.png)
   - [Logo 2](assets/images/honeydrew-high-resolution-logo-grayscale-transparent.png)
+
+
 
 
 ---
